@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+
+body{
+   background:url(pexels-pixabay-531756.jpg);
+   background-size: cover;
+   align-content: center;
+}
+
+
+
+.container{
+background-color: white;
+    height: 500px;
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 50px;
+     text-align: center;
+     box-shadow: 3px 3px 5px;
+     padding-bottom: 30px;
+
+}
+
+
+.row{
+    display: flex;
+
+   
+  
+
+}
+
+input,textarea{
+    background-color:silver;
+    width: 70%;
+    padding:12px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 40px;
+    
+}
+
+input:focus{
+    background-color: white;
+}
+
+textarea:focus{
+    background-color: white;
+}
+
+
+
+
+button{
+     background-color:black;
+     color: white;
+    width: 60%;
+    padding:12px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+h1{
+    margin-bottom: 60px;
+}
+
+
+.col1{
+width: 50%;
+background: url(https://images.unsplash.com/photo-1519666336592-e225a99dcd2f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFpcnBsYW5lfGVufDB8fDB8fHww);
+height: 500px;
+ border-radius: 50px 0px 0px 50px;
+ background-size: cover;
+
+
+}
+
+.col2{
+    width:50%;
+    height:500px;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+
+@media (max-width:768px){
+
+    .col1{
+      opacity: 0;
+    }
+
+    .col2{
+        width:500vh;
+       
+    }
+}
+
+    </style>
+
+
+
+</head>
+<body>
+    
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col1">
+       
+
+            </div>
+
+
+            <div class="col2">
+
+                <h1>Login</h1>
+<input type="text" placeholder="UserName">
+
+<input type="email" placeholder="Emali">
+
+<textarea name="" id=""  rows="5" cols="50" placeholder="Message"></textarea><br>
+
+<a href="a.html"> <button>Submit</button> </a>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
